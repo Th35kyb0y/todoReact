@@ -1,0 +1,60 @@
+input[type="text"] {
+    width: 20%; /* set the width of the input box */
+    padding: 12px 20px; /* add some padding to the input box */
+    margin: 8px 0; /* add some margin to the input box */
+    box-sizing: border-box; /* set the box-sizing property */
+    border: 2px solid #ccc; /* add a border to the input box */
+    border-radius: 4px; /* add rounded corners to the input box */
+}
+
+h1 {
+    font-size: 36px; /* set the font size */
+    font-weight: bold; /* set the font weight to bold */
+    text-align: center; /* center align the text */
+    margin: 20px 0; /* add some margin to the top and bottom */
+    color: #333; /* set the text color */
+}
+
+button {
+    background-color: lightskyblue; /* set a light background color */
+    color: #555; /* set the text color */
+    padding: 12px 20px; /* add some padding */
+    border-radius: 4px; /* add rounded corners */
+    border: none; /* remove the border */
+    font-size: 16px; /* set the font size */
+    cursor: pointer; /* change the cursor to a pointer when the button is hovered over */
+    transition: all 0.2s ease-in-out; /* add a transition for a smooth hover effect */
+    margin-left: 1%;
+}
+
+/* Add a hover effect to the button */
+button:hover {
+    background-color: #e6e6e6; /* change the background color on hover */
+    color: #333; /* change the text color on hover */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* add a subtle shadow on hover */
+}
+.task {
+    background-color: #f2f2f2; /* set a light background color */
+    padding: 12px; /* add some padding */
+    border-radius: 4px; /* add rounded corners */
+    margin: 8px 0; /* add some margin to the top and bottom */
+    box-sizing: border-box; /* set the box-sizing property */
+    display: flex; /* make the task div a flex container */
+    align-items: center; /* align the task text in the center of the div */
+    width: 20%;
+    justify-content: space-between;
+    margin-left: 37%;
+}
+
+/* Style the task text */
+.task p {
+    margin: 0; /* remove the margin */
+    font-size: 18px; /* set the font size */
+    color: #555; /* set the text color */
+}
+img{
+    height: 15px;
+    cursor: pointer;
+ 
+
+}
